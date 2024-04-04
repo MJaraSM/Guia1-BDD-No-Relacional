@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "660e14fb39d5807fddffcf38"
+  },
+  "Numero": 1,
+  "Nombre": "Bulbasaur",
+  "Tipo1": "Planta",
+  "Tipo2": "Ninguno"
+},
+{
+  "_id": {
+    "$oid": "660e15288245f19ecdff95d8"
+  },
+  "Numero": 6,
+  "Nombre": "Charizard",
+  "Tipo1": "Fuego",
+  "Tipo2": "Volador"
+},
+{
+  "_id": {
+    "$oid": "660e156255119eefb485ab00"
+  },
+  "Numero": 7,
+  "Nombre": "Squirtle",
+  "Tipo1": "Agua",
+  "Tipo2": "Ninguno"
+}]
