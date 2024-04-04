@@ -44,7 +44,7 @@ def InsertarDatos():
 
 def ModificarDatos():
     #Recordatorio = Mantener la id actualizada si lo borra mas adelante
-    ID = "6609c04c42397968d588f31e"
+    ID = "660e14fb39d5807fddffcf38"
     pokemon= Collection.find({"_id": ObjectId(ID)})[0]
     print(pokemon)
     #Seleccione los datos a cambiar
@@ -58,7 +58,7 @@ def ModificarDatos():
     print(pokemon)
 
 def EliminarDatos():
-    ID = "6609c04c42397968d588f31e"
+    ID = "660e14fb39d5807fddffcf38"
     # Buscar el Pokémon por su ID
     pokemon = Collection.find_one({"_id": ObjectId(ID)})
     if pokemon:
