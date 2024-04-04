@@ -20,5 +20,11 @@ Las variables de HOST y PUERTO se deben cambiar segun corresponda
 Las variables de database y collection igual se deben cambiar segun el nombre que se le dio, en este caso
 la database se llamo Pokedex y la collection Pokemon
 
+
+# Funcionamiento
+
 Para que el programa entrege alguna de las funciones del CRUD, se debe de descomentar al final del codigo la 
 funcion que se desea realizar.
+
+Si desea cambiar de funcionalidad, volver a comentar la utilizada y descomentar la nueva a utilizar
+Para el Update y Delete, cambiar el valor de la variable ID por el que desee.
