@@ -40,7 +40,7 @@ def InsertarDatos():
 def ModificarDatos():
     Valido = 0
     while Valido == 0:
-        ID = input("Ingrese el ID del Pokemon a eliminar: ")
+        ID = input("Ingrese el ID del Pokemon a modificar: ")
         try:
             pokemon= Collection.find({"_id": ObjectId(ID)})[0]
             break
