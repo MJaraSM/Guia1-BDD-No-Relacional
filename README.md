@@ -18,14 +18,13 @@ Ya realizado lo anterior, creamos la base de datos y la colleción y agregamos l
 
 Las variables de HOST y PUERTO se deben cambiar segun corresponda
 Las variables de database y collection igual se deben cambiar segun el nombre que se le dio, en este caso
-la database se llamo Pokedex y la collection Pokemon
+la database se llamo Pokedex y la collection Pokemon.
 
+Se llaman asi porque la base de datos que se creo es una pokedex, la cual es donde se almacenan los datos de 
+los pokemones, en este caso, se cuenta con el numero del pokemon en la podekex, su nombre, y sus ambos tipos,
+si no posee un segundo tipo, se completa con un ninguno.
 
 # Funcionamiento
 
-Para que el programa entrege alguna de las funciones del CRUD, se debe de descomentar al final del codigo la 
-funcion que se desea realizar.
-
-Si desea cambiar de funcionalidad, volver a comentar la utilizada y descomentar la nueva a utilizar
-
-Para el Update y Delete, cambiar el valor de la variable ID por el que desee.
+Para que el programa entrege alguna de las funciones del CRUD, se debe ingresar el numero de la opcion que se 
+desea realizar y luego ir respondiendo segun se vayan pidiendo los datos para las variables.
