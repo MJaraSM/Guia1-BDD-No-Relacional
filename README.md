@@ -28,3 +28,11 @@ si no posee un segundo tipo, se completa con un ninguno.
 
 Para que el programa entrege alguna de las funciones del CRUD, se debe ingresar el numero de la opcion que se 
 desea realizar y luego ir respondiendo segun se vayan pidiendo los datos para las variables.
+
+Ejemplos:
+
+Menu de selección
+![image](https://github.com/MJaraSM/Guia1-BDD-No-Relacional/assets/145721388/d037fea1-053c-46ea-82b5-1fcde8c9e667)
+
+
+
