@@ -42,19 +42,25 @@ def ModificarDatos():
     while Valido == 0:
         ID = input("Ingrese el ID del Pokemon a modificar: ")
         try:
-            pokemon= Collection.find({"_id": ObjectId(ID)})[0]
+            pokemon = Collection.find_one({"_id": ObjectId(ID)})
             break
         except:
             print("El id ingresado no es valido")
+    print("Este es el pokemon a editar: ")
     print(pokemon)
+    print("Ahora vamos a añadir los nuevos datos del pokemon")
+    Numero = input("Ingrese el nuevo numero de la pokedex: ")
+    Nombre = input("Ingrese el nuevo nombre del pokemon: ")
+    Tipo1 = input("Ingrese el primer tipo del pokemon: ")
+    Tipo2 = input("Ingrese el segundo tipo, si no tiene, escriba ninguno: ")
     nuevos_datos = {
-            "Numero": 9,
-            "Nombre": "Blastoise",
+            "Numero": Numero,
+            "Nombre": Nombre,
+            "Tipo1": Tipo1,
+            "Tipo2": Tipo2
         }
     Collection.update_one({"_id": ObjectId(ID)}, {"$set": nuevos_datos})
     print("Pokemon modificado exitosamente.")
-    pokemon= Collection.find({"_id": ObjectId(ID)})[0]
-    print(pokemon)
 
 def EliminarDatos():
     Valido = 0
@@ -108,4 +114,3 @@ except pymongo.errors.serverSelectionTimeoutError as errorTiempo:
     print("Tiempo exedido "+ errorTiempo)
 except pymongo.errors.ConnectionFailure as errorConexion:
     print("Error de conexion"+errorConexion)
-
