@@ -34,5 +34,14 @@ Ejemplos:
 Menu de selección
 ![image](https://github.com/MJaraSM/Guia1-BDD-No-Relacional/assets/145721388/d037fea1-053c-46ea-82b5-1fcde8c9e667)
 
+Insertar datos
+![image](https://github.com/MJaraSM/Guia1-BDD-No-Relacional/assets/145721388/d35eb46f-5685-4e24-9729-718d143c75d9)
+
+Eliminar
+![image](https://github.com/MJaraSM/Guia1-BDD-No-Relacional/assets/145721388/9924c40e-9fec-4336-a214-055d07b59b30)
+
+Seleccionar Terminar o volver al menu del inicio
+![image](https://github.com/MJaraSM/Guia1-BDD-No-Relacional/assets/145721388/acd3e2a7-6303-4f27-98e3-665e03d0bfdf)
+![image](https://github.com/MJaraSM/Guia1-BDD-No-Relacional/assets/145721388/5d134d8e-dccf-459d-afd8-27a05697a139)
 
 
